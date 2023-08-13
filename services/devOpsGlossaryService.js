@@ -59,6 +59,66 @@ const tableRows = [
     description: 'All work has been started but not completed.',
     references: 'DevOps glossary of terms. Global Knowledge. (n.d.-a). https://www.globalknowledge.com/us-en/topics/devops/glossary-of-terms/',
   },
+  {
+    id: 11,
+    term: 'Agile Organization',
+    description: 'A flexible company can react quickly and adapt to both expected and unexpected opportunities and threats.',
+    references: 'Agile Organization	A flexible company can react quickly and adapt to both expected and unexpected opportunities and threats.	DevOps glossary of terms. Global Knowledge. (n.d.-a). https://www.globalknowledge.com/us-en/topics/devops/glossary-of-terms/',
+  },
+  {
+    id: 12,
+    term: 'Build Automation',
+    description: 'Build automation involves generating scripts and automating the process of compiling computer source code into binaries.',
+    references: 'Plutora. (2021, July 14). DevOps DevOps Terminology: A Glossary - Plutora. https://www.plutora.com/devops-at-scale/terminology-glossary',
+  },
+  {
+    id: 13,
+    term: 'Environment',
+    description: 'All the server resources needed to run the software at various stages of its lifecycle.',
+    references: '13	Environment	All the server resources needed to run the software at various stages of its lifecycle.	Fedak, V. (2023). DevOps glossary: 78 basic DevOps terms explained in simple words | IT Svit. IT Outsourcing Company ★ IT Svit. https://www.itsvit.com/blog/devops-glossary-78-basic-devops-terms-in-simple-words/',
+  },
+  {
+    id: 14,
+    term: 'Flow',
+    description: 'How people or products move through a process. DevOps "first way" involves optimizing threaded systems.',
+    references: 'DevOps glossary of terms. Global Knowledge. (n.d.-a). https://www.globalknowledge.com/us-en/topics/devops/glossary-of-terms/',
+  },
+  {
+    id: 15,
+    term: 'Governance',
+    description: 'IT governance is a set of policies and procedures, often established at the board or executive level, designed to ensure that IT assets can deliver maximum value to the business. and stakeholders.',
+    references: 'Plutora. (2021, July 14). DevOps DevOps Terminology: A Glossary - Plutora. https://www.plutora.com/devops-at-scale/terminology-glossary',
+  },
+  {
+    id: 16,
+    term: 'Kanban',
+    description: 'Kanban is a visual workflow management method typically managed using a whiteboard layout, with tasks written on sticky notes that move from column to column.',
+    references: 'Plutora. (2021, July 14). DevOps DevOps Terminology: A Glossary - Plutora. https://www.plutora.com/devops-at-scale/terminology-glossary',
+  },
+  {
+    id: 17,
+    term: 'Microservices',
+    description: 'A software development technique aligned to a service-oriented architecture (SOA) that structures an application as a loosely coupled set of services. In microservices architecture, services are even better.',
+    references: 'DevOps glossary of terms. Global Knowledge. (n.d.-a). https://www.globalknowledge.com/us-en/topics/devops/glossary-of-terms/',
+  },
+  {
+    id: 18,
+    term: 'Node',
+    description: 'A physical or virtual machine in a Kubernetes cluster, used to host pods running Docker containers.',
+    references: 'Fedak, V. (2023). DevOps glossary: 78 basic DevOps terms explained in simple words | IT Svit. IT Outsourcing Company ★ IT Svit. https://www.itsvit.com/blog/devops-glossary-78-basic-devops-terms-in-simple-words/',
+  },
+  {
+    id: 19,
+    term: 'Toolchain',
+    description: 'Use an integrated suite of task-specific tools to automate the process from start to finish. For example automated code testing, release and deployment.',
+    references: 'DevOps glossary of terms. Global Knowledge. (n.d.-a). https://www.globalknowledge.com/us-en/topics/devops/glossary-of-terms/',
+  },
+  {
+    id: 20,
+    term: 'Production',
+    description: 'Production, also known as live, is an environment in which users can access an application or functionality.',
+    references: 'Plutora. (2021, July 14). DevOps DevOps Terminology: A Glossary - Plutora. https://www.plutora.com/devops-at-scale/terminology-glossary',
+  },
 ];
 
 const devOpsGlossaryService = {
