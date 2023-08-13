@@ -1,0 +1,23 @@
+<h1>{{title}}</h1>
+<p>Welcome to my website showing a collection of DevOps terms and their brief descriptions</p>
+
+<table border="1" style="width: 100%;">
+    <tbody>
+        <tr>
+            <th>ID</th>
+            <th>Term</th>
+            <th>Description</th>
+            <th>References</th>
+        </tr>
+        
+        {{#each tableRows}}
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.term}}</td>
+            <td>{{this.description}}</td>
+            <td>{{this.references}}</td>
+        </tr>
+        {{/each}}
+
+    </tbody>
+</table>
