@@ -119,6 +119,66 @@ const tableRows = [
     description: 'Production, also known as live, is an environment in which users can access an application or functionality.',
     references: 'Plutora. (2021, July 14). DevOps DevOps Terminology: A Glossary - Plutora. https://www.plutora.com/devops-at-scale/terminology-glossary',
   },
+  {
+    id: 21,
+    term: 'Agent',
+    description: 'A program installed on specific physical servers to manage the execution of various processes on that server.',
+    references: 'Inc., Dz. (2017a, July 24). 48 devops terms you should know (a DevOps glossary). Medium. https://medium.com/@DZoneInc/48-devops-terms-you-should-know-a-devops-glossary-37e60fd23752',
+  },
+  {
+    id: 22,
+    term: 'Autonomy',
+    description: 'Autonomy refers to the ability to make decisions independently without waiting or delaying with someone higher in the hierarchy.',
+    references: 'DevOps DevOps Terminology: A glossary. Plutora. (2021a, July 14). https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items',
+  },
+  {
+     id: 23,
+     term: 'Build Automation',
+     description: 'Build automation includes scripting and automating the compilation of computer source code into binaries.',
+     references: 'DevOps DevOps Terminology: A glossary. Plutora. (2021a, July 14). https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items', 
+  },
+  {
+    id: 24,
+    term: 'Commit',
+    description: 'A way to record changes made to the repository and add log messages to describe the changes made.',
+    references: 'Inc., Dz. (2017a, July 24). 48 devops terms you should know (a DevOps glossary). Medium. https://medium.com/@DZoneInc/48-devops-terms-you-should-know-a-devops-glossary-37e60fd23752',
+  },
+  {
+    id: 25,
+    term: 'Serverless',
+    description: 'Cloud computing execution model in which the cloud provider dynamically manages the allocation of machine resources. Pricing is based on the actual amount of resources consumed by an application. This is often referred to as "Function as a Service".',
+    references: 'DevOps glossary of terms. Global Knowledge. (n.d.). https://www.globalknowledge.com/us-en/topics/devops/glossary-of-terms/',
+  },
+  {
+    id: 26,
+    term: 'Toolchain',
+    description: 'Use a suite of built-in task-specific tools to automate the process from start to finish. Example: automated testing, publishing and deploying code',
+    references: 'DevOps glossary of terms. Global Knowledge. (n.d.). https://www.globalknowledge.com/us-en/topics/devops/glossary-of-terms/',
+  },
+  {
+    id: 27,
+    term: 'Technical Debt',
+    description: 'A programming concept that reflects the additional development work that occurs when using short-term, easy-to-deploy code instead of adopting the best overall solution.',
+    references: 'Inc., Dz. (2017a, July 24). 48 devops terms you should know (a DevOps glossary). Medium. https://medium.com/@DZoneInc/48-devops-terms-you-should-know-a-devops-glossary-37e60fd23752',
+  },
+  {
+    id: 28,
+    term: 'Test Environment',
+    description: 'An environment that the test team uses to run test cases and fix bugs before release.',
+    references: 'DevOps DevOps Terminology: A glossary. Plutora. (2021a, July 14). https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items',
+  },
+  {
+    id: 29,
+    term: 'Unit Testing',
+    description: 'Unit testing is breaking down pieces of code into small pieces or units of code or logic that can be tested quickly and easily.',
+    references: 'DevOps DevOps Terminology: A glossary. Plutora. (2021a, July 14). https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items',
+  },
+  {
+    id: 30,
+    term: 'WhiteBox Testing',
+    description: 'A software testing method includes checking the internal structure, design and coding of the software. It differs from black box testing in that the code is visible or transparent to testers and is therefore "white box".',
+    references: 'DevOps DevOps Terminology: A glossary. Plutora. (2021a, July 14). https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items',
+  },
 ];
 
 const devOpsGlossaryService = {
