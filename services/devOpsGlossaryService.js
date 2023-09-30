@@ -179,6 +179,66 @@ const tableRows = [
     description: 'A software testing method includes checking the internal structure, design and coding of the software. It differs from black box testing in that the code is visible or transparent to testers and is therefore "white box".',
     references: 'DevOps DevOps Terminology: A glossary. Plutora. (2021a, July 14). https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items',
   },
+  {
+    id: 31,
+    term: 'Application Release Automation (ARA)',
+    description: 'ARA involves using tools, scripts, or products to achieve a consistent and repeatable  packaging and deployment process from development to production.',
+    references: 'Plutora 2021, DevOps DevOps Terminology: A Glossary - Plutora, https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items.',
+  },
+  {
+    id: 32,
+    term: 'Behavior-Driven Development (BDD)',
+    description: 'An evolution of test-driven development, focusing on collaboration between development and business stakeholders to identify user stories that determine the development of the application using a human-readable DSL',
+    references: 'DZone Inc. 2018, 48 DevOps Terms You Should Know (A DevOps Glossary), Medium, https://medium.com/@DZoneInc/48-devops-terms-you-should-know-a-devops-glossary-37e60fd23752.',
+  },
+  {
+    id: 33,
+    term: 'Continuous Delivery',
+    description: 'A method for ensuring that  software remains ready for release throughout its lifecycle. The deployment process is iterative, delivering more frequent releases to your end users.',
+    references: 'DevOps Glossary of Terms, https://www.globalknowledge.com/us-en/topics/devops/glossary-of-terms/.',
+  },
+  {
+    id: 34,
+    term: 'Definition of Done',
+    description: 'In software development, there is a shared understanding of what it means to get work done.',
+    references: 'DevOps Glossary of Terms, https://www.globalknowledge.com/us-en/topics/devops/glossary-of-terms/.',
+  },
+  {
+    id: 35,
+    term: 'Everything as Code',
+    description: 'Everything as Code treats the entire system as code, meaning  everything from the underlying server to the deployment configuration is stored in the repository as code and can be recreated or restored to Previous status is just a simple click away.',
+    references: 'Plutora 2021b, DevOps DevOps Terminology: A Glossary - Plutora, https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items.',
+  },
+  {
+    id: 36,
+    term: 'Fail Fast',
+    description: 'A strategy in which you try something but fail, feedback is provided quickly, you adjust accordingly and try again.',
+    references: 'DZone Inc. 2018b, 48 DevOps Terms You Should Know (A DevOps Glossary), Medium, https://medium.com/@DZoneInc/48-devops-terms-you-should-know-a-devops-glossary-37e60fd23752.',
+  },
+  {
+    id: 37,
+    term: 'Functional Testing',
+    description: 'A type of black box testing in which functions (also called features) are tested by giving them inputs and testing the output.',
+    references: 'Plutora 2021c, DevOps DevOps Terminology: A Glossary - Plutora, https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items.',
+  },
+  {
+    id: 38,
+    term: 'Issue Tracking',
+    description: 'A process that allows programmers and quality assurance staff to track the flow of bugs and new features from identification to resolution.',
+    references: 'DZone Inc. 2018c, 48 DevOps Terms You Should Know (A DevOps Glossary), Medium, https://medium.com/@DZoneInc/48-devops-terms-you-should-know-a-devops-glossary-37e60fd23752.',
+  },
+  {
+    id: 39,
+    term: 'Mean Time Between Failures (MTBF)',
+    description: 'Used to measure the reliability of a system or component, calculated by averaging the time between system failures.',
+    references: 'DZone Inc. 2018c, 48 DevOps Terms You Should Know (A DevOps Glossary), Medium, https://medium.com/@DZoneInc/48-devops-terms-you-should-know-a-devops-glossary-37e60fd23752.',
+  },
+  {
+    id: 40,
+    term: 'Governance',
+    description: 'IT governance is a set of policies and procedures, typically defined at the board or executive level, designed so that IT assets can deliver maximum value to the company and its stakeholders. ',
+    references: 'Plutora 2021d, DevOps DevOps Terminology: A Glossary - Plutora, https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items.',
+  },
 ];
 
 const devOpsGlossaryService = {
