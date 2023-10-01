@@ -239,6 +239,66 @@ const tableRows = [
     description: 'IT governance is a set of policies and procedures, typically defined at the board or executive level, designed so that IT assets can deliver maximum value to the company and its stakeholders. ',
     references: 'Plutora 2021d, DevOps DevOps Terminology: A Glossary - Plutora, https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items.',
   },
+  {
+    id: 41,
+    term: 'Legacy Application',
+    description: 'Outdated or obsolete software  is difficult to remove due to time, money, or other issues within the organization.',
+    references: 'Plutora 2021e, DevOps DevOps Terminology: A Glossary - Plutora, https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items.',
+  },
+  {
+    id: 42,
+    term: 'Mean Time Between Failures (MTBF)',
+    description: 'MTBF is the average time between failures or breakdowns of a device. This is one way to measure reliability.',
+    references: 'Plutora 2021e, DevOps DevOps Terminology: A Glossary - Plutora, https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items.',
+  },
+  {
+    id: 43,
+    term: 'Ops (from DevOps)',
+    description: 'Individuals involved in the day-to-day operational activities required to deploy and manage systems and services.',
+    references: 'DevOps Glossary of Terms, https://www.globalknowledge.com/us-en/topics/devops/glossary-of-terms/.',
+  },
+  {
+    id: 44,
+    term: 'Value Stream Mapping',
+    description: 'Lean tools visualize the flow of data, materials, and operations through a process with a focus on identifying and quantifying waste.',
+    references: 'DevOps Glossary of Terms, https://www.globalknowledge.com/us-en/topics/devops/glossary-of-terms/.',
+  },
+  {
+    id: 45,
+    term: 'Microservices Architecture',
+    description: 'The practice of developing software as an interconnected system consisting of a number of independent modular services that communicate with each other.',
+    references: 'DZone Inc. 2018d, 48 DevOps Terms You Should Know (A DevOps Glossary), Medium, https://medium.com/@DZoneInc/48-devops-terms-you-should-know-a-devops-glossary-37e60fd23752.',
+  },
+  {
+    id: 46,
+    term: 'Waterfall (Software Development)',
+    description: 'Linear and sequential approach to software design and development in which progress is seen as gradually going downwards.',
+    references: 'DevOps Glossary of Terms, https://www.globalknowledge.com/us-en/topics/devops/glossary-of-terms/',
+  },
+  {
+    id: 47,
+    term: 'Production',
+    description: 'The final stage of the implementation process in which the software will be used by the target audience.',
+    references: 'DZone Inc. 2018e, 48 DevOps Terms You Should Know (A DevOps Glossary), Medium, https://medium.com/@DZoneInc/48-devops-terms-you-should-know-a-devops-glossary-37e60fd23752.',
+  },
+  {
+    id: 48,
+    term: 'Monolithic Architecture',
+    description: 'Traditional software design architecture with tightly coupled components. This means that each component and its related components must be present  for the code to run or compile.',
+    references: 'Plutora 2021f, DevOps DevOps Terminology: A Glossary - Plutora, https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items.',
+  },
+  {
+    id: 49,
+    term: 'NoOps',
+    description: 'NoOps (no operations) is the idea that automation can completely eliminate the need for a dedicated operations team.',
+    references: 'Plutora 2021g, DevOps DevOps Terminology: A Glossary - Plutora, https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items.',
+  },
+  {
+    id: 50,
+    term: 'Open Source',
+    description: 'The software provides the original source code free of charge for users to use, share and modify.',
+    references: 'Plutora 2021h, DevOps DevOps Terminology: A Glossary - Plutora, https://www.plutora.com/devops-at-scale/terminology-glossary#:~:text=DevOps%20Terminology%3A%20A%20Glossary%201%20A%20Agent%20A,...%208%20H%20Hybrid%20Cloud%20...%20More%20items.',
+  },
 ];
 
 const devOpsGlossaryService = {
